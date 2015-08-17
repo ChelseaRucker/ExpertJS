@@ -1,0 +1,22 @@
+{
+  "name": "expertjs",
+  "version": "1.0.0",
+  "description": "ExpertJS is an online tech dictionary for JavaScript professionals, educators and students. We provide definitions to words, phrases and abbreviations related to JavaScript and JS related technologies. Our goal is to provide easy-to-understand definitions, while avoiding the use of heavy jargon when possible so that the site is a comprehensive resource for users with any range of computer knowledge.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChelseaBurns/ExpertJS.git"
+  },
+  "author": "Chelsea Burns <co.designux@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChelseaBurns/ExpertJS/issues"
+  },
+  "homepage": "https://github.com/ChelseaBurns/ExpertJS#readme",
+  "dependencies": {
+    "foundation": "^4.2.1"
+  }
+}
