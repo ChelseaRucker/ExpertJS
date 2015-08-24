@@ -1,0 +1,22 @@
+{
+  "name": "ExpertJS",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ChelseaBurns/ExpertJS",
+  "authors": [
+    "ChelseaBurns <co.designux@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "firebase": "~2.2.9",
+    "bootstrap": "~3.3.5",
+    "angular-route": "~1.4.4"
+  }
+}

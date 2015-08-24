@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="angularAddresses">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ExpertJS</title>
+    <link rel="stylesheet" href="lib/build.css">
+    <link rel="stylesheet" href="assets/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="/#/">Home</a></li>
+          <li><a href="/#/contact">Contact</a></li>
+          <li><a href="/#/about">About</a></li>
+          <li><a href="/#/404">404</a></li>
+          <li><a href="/#/people">Go to App</a></li>
+          <li ng-hide="auth"><a href="/#/login">Login</a></li>
+          <li ng-show="auth"><a href="/#/logout">Logout</a></li>
+        </ul>
+      </nav>
+      <div ng-view class="app"></div>
+    </div>
+    <script src="lib/build.js"></script>
+  </body>
+</html>
