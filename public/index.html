@@ -12,14 +12,20 @@
     <div class="container">
       <nav>
         <ul>
-          <li><a href="/#/">Home</a></li>
-          <li><a href="/#/contact">Contact</a></li>
-          <li><a href="/#/about">About</a></li>
+          <li><a href="/#/">ExpertJS</a></li>
+          <li><a href="/#/contact">Did You Know?</a></li>
+          <li><a href="/#/about">Creator's Blog</a></li>
           <li><a href="/#/404">404</a></li>
           <li><a href="/#/people">Go to App</a></li>
           <li ng-hide="auth"><a href="/#/login">Login</a></li>
           <li ng-show="auth"><a href="/#/logout">Logout</a></li>
         </ul>
+        <form role="search" class="navbar-form navbar-right">
+          <div class="form-group">
+            <input type="text" placeholder="Search" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-success">Search</button>
+        </form>
       </nav>
       <div ng-view class="app"></div>
     </div>

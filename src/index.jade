@@ -7,18 +7,24 @@ html(lang="en-US", ng-app="angularAddresses")
     title ExpertJS
     link(rel="stylesheet" href="lib/build.css")
     link(rel="stylesheet" href="assets/main.css")
-
   body
     .container
       nav
         ul
-          li: a(href="/#/") Home
-          li: a(href="/#/contact") Contact
-          li: a(href="/#/about") About
+          li: a(href="/#/") ExpertJS
+          li: a(href="/#/contact") Did You Know?
+          li: a(href="/#/about") Creator's Blog
           li: a(href="/#/404") 404
           li: a(href="/#/people") Go to App
           li(ng-hide="auth"): a(href="/#/login") Login
           li(ng-show="auth"): a(href="/#/logout") Logout
+
+        form.navbar-form.navbar-right(role="search")
+          .form-group
+            input.form-control(type="text", placeholder="Search")
+          button.btn.btn-success(type="submit") Search
+
+
       .app(ng-view)
 
     script(src="lib/build.js")
