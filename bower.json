@@ -18,5 +18,8 @@
     "firebase": "~2.2.9",
     "bootstrap": "~3.3.5",
     "angular-route": "~1.4.4"
+  },
+  "devDependencies": {
+    "angular": "1.4.4"
   }
 }

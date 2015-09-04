@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/ChelseaBurns/ExpertJS#readme",
   "dependencies": {
-    "foundation": "^4.2.1",
     "grunt": "^0.4.5"
   },
   "devDependencies": {
