@@ -4,7 +4,8 @@
   "description": "ExpertJS is an online tech dictionary for JavaScript professionals, educators and students. We provide definitions to words, phrases and abbreviations related to JavaScript and JS related technologies. Our goal is to provide easy-to-understand definitions, while avoiding the use of heavy jargon when possible so that the site is a comprehensive resource for users with any range of computer knowledge.",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-cov": "istanbul cover _mocha -- --recursive"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,8 @@
   },
   "homepage": "https://github.com/ChelseaBurns/ExpertJS#readme",
   "dependencies": {
-    "grunt": "^0.4.5"
+    "grunt": "^0.4.5",
+    "istanbul": "^0.3.19"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
